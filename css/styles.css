@@ -1,0 +1,188 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+p{
+    color:#8f8f8f;
+}
+
+/* Headings. */
+.big-heading{
+    font-size: 3.5rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+/* Container */
+.container-fluid{
+    padding:7% 15%;   
+}
+/* Sections */
+.coloured-section{
+    background-color: #ff4c68;
+    color:#ffffff;
+}
+.white-section{
+    background-color: #fff;
+    color: #000;
+}
+
+/* Download Button */
+.download-button{
+    /* top right bottom left */
+    margin:5% 3% 5% 0 ;   
+}
+
+
+/* Navbar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+}
+
+
+/* title image */
+
+#title .container-fluid{
+    padding:3% 15% 7%;
+    text-align: left;
+}
+.title-image{
+    width: 90%;
+    /* transform: rotate(25deg); */
+    position: absolute;
+
+}
+
+/* Featuees */
+#features{
+    position: relative;
+    z-index: 1;
+}
+.features-heading{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.features-box{
+    padding: 5%;
+}
+.features-icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Testimonials secion */
+
+#testimonials{
+    background-color:#ef8172 ;
+}
+.testimonials-img{
+    width: 10%;
+    height: fit-content;
+    border-radius: 50%;
+    margin: 20px;
+}
+.testimonials-text{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#press{
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px;
+}
+
+
+/* Pricing seciton  */
+
+#pricing{
+    padding:100px;
+}
+.pricing-col{
+    padding:3% 2%;
+}
+
+.pricing-text{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.card-heading{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.card-text{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+
+/* cta section */
+#cta{
+    position: relative;  
+}
+#cta img{
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    padding: 10px;
+}
+.cta-img-left{
+    left: 1rem;
+}
+.cta-img-right{
+    right: 1rem;
+    transform: scaleX(-1);
+}
+/* footer section */
+
+.social-icon{
+    margin:20px 10px;
+}
+
+
+/* Media query */
+
+@media (max-width:1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title h1{
+        text-align: center;
+    }
+    #cta{
+        background-image: url('/TinDog-Start-master/images/two-cat.png');
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode:multiply;
+    }
+    #cta img{
+        visibility: hidden;
+    }
+}
+
