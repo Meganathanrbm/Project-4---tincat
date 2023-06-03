@@ -171,7 +171,7 @@ p{
         position: static;
         transform: rotate(0);
     }
-    #title h1{
+    #title{
         text-align: center;
     }
     #cta{
